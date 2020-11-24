@@ -297,6 +297,13 @@ ul#nav li.current a { color: #fe6928; }
   	height: 42px;
   	border-radius: 0px;
 }
+.bars li blackbelt {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: rgb(201, 0, 0);
+  	height: 42px;
+  	border-radius: 0px;
+}
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
@@ -320,19 +327,6 @@ ul#nav li.current a { color: #fe6928; }
    border-radius: 0px;
 }
 
-.bar-expand-black {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #c50000;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 0px;
-}
 /*
 .git {
   	-moz-animation: git 2s ease;

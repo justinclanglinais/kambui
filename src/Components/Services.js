@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 
 class Services extends Component {
-
-  getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
   
   render() {
 
@@ -28,21 +19,12 @@ class Services extends Component {
       })
 
       var skills = this.props.data.skills.map((skills)=>{
-        if (skills.name === 'black') {
-          var className = 'bar-expand-black '+skills.name.toLowerCase();
-          return (
-            <li key={skills.name}>
-              <span style={{width:'70%', backgroundColor:"red"}}className={className}></span><em>{skills.name}</em>
-            </li>
-          )
-        } else {
-          var className = 'bar-expand '+skills.name.toLowerCase();
-          return (
-            <li key={skills.name}>
-              <span style={{width:'70%', backgroundColor:skills.color}}className={className}></span><em>{skills.name}</em>
-            </li>
-          )
-        }
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{width:'70%', backgroundColor:skills.color}}className={className}></span><em>{skills.name} - {skills.date}</em>
+          </li>
+        )
       })
     }
 
@@ -80,7 +62,7 @@ class Services extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>History</span></h1>
          </div>
 
          <div className="nine columns main-col">

@@ -86,22 +86,27 @@
     "skills":[
       {
         "name":"white belt",
+        "date":"n/a",
         "color":"white"
       },
       {
         "name":"blue belt",
+        "date":"n/a",
         "color":"blue"
       },
       {
         "name":"purple belt",
+        "date":"n/a",
         "color":"purple"
       },
       {
         "name":"brown belt",
+        "date":"January 17, 2017",
         "color":"#964B00"
       },
       {
         "name":"black belt",
+        "date":"November 12, 2019",
         "color":"black"
       }
     ]
