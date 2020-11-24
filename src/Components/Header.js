@@ -6,6 +6,7 @@ class Header extends Component {
 
    if(this.props.data){
       var profilepic= "images/"+this.props.data.image;
+      var backgroundImg= "images/"+this.props.data.backgroundImg;
       var project = this.props.data.project; 
       var github = this.props.data.github;
       var name = this.props.data.name;
@@ -17,10 +18,9 @@ class Header extends Component {
    }
 
     return (
-      <header id="home">
-      <img src={profilepic} style={{  'opacity': '0.3'
-      }} />
+      <header id="home" >
       {/* <ParticlesBg color="#ff0000" num={10} type="circle" bg={true} /> */}
+      <img src={backgroundImg} style={{'opacity': '0.3', 'z-index': '-5'}} />
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -32,6 +32,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#academy">Academy</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
+
       </nav>
 
       <div className="row banner">
@@ -45,6 +46,7 @@ class Header extends Component {
                <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>
+         
       </div>
 
       <p className="scrolldown">
