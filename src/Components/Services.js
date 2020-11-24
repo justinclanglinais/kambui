@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Resume extends Component {
+class Services extends Component {
 
   getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -91,4 +91,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Services;

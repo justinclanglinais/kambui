@@ -6,10 +6,10 @@
     "backgroundImg":"kambui-bg.jpg",
     "bio":"Kamau Curnal is a Brazilian Jiu Jitsu black belt under Brian Johnson, a fourth-degree black belt under Rigan Machado.  He started jiu-jitsu in 2010 at over 360lbs, and was a felon and an addict in his past.  Now, he is a graduate of the 48 curriculum and has taught classes at Northwest Jiu-Jitsu Academy, Alpha Martial Arts, and his own Academy, Kambui Jiu Jitsu Academy.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "email": "kamau@kambui.com",
     "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/kambui",
+    "project":"https://github.com/kambuistuff",
     "address":{
       "business":"Garfield Community Center",
       "street":"2323 East Cherry Street",
@@ -18,11 +18,11 @@
       "zip": "98122"
     },
     "website": "https://www.facebook.com/Kambui-Jiu-Jitsu-Academy-237339183733346/",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"http://kambuijj.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/Kambui-Jiu-Jitsu-Academy-237339183733346",
         "className":"fa fa-facebook"
       },
       {
@@ -32,35 +32,41 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/kamb.ui/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/",
         "className":"fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+  "services":{
+    "skillmessage":"Kamau's Brazilian Jiu-Jitsu Journey",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Northwest Jiu Jitsu Academy",
+        "degree":"Basic 48 Curriculum",
+        "graduated":"November 12, 2019",
+        "description":"Kamau earned his black belt from Brian Johnson"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Kambui Jiu Jitsu Academy",
+        "degree":"Owner, lead instructor",
+        "graduated":"November 12, 2019",
+        "description":"Owner and head instructor of Kambui Jiu Jitsu Academy"
+      },
+      {
+        "school":"Alpha Martial Arts",
+        "degree":"Instructor - Brazilian Jiu-Jitsu classes - NWJJA affiliate school",
+        "graduated":"2017?",
+        "description":"Taught jiu-jitsu classes weekly at Alpha Martial Arts, representing NWJJA and providing quality instruction from Brian Johnson's Basic 48 Curriculum"
       }
     ],
     "work":[

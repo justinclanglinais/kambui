@@ -5,7 +5,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
+import Services from './Components/Services';
 import Contact from './Components/Contact';
 import Academy from './Components/Academy';
 
@@ -47,7 +47,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
+        <Services data={this.state.resumeData.services}/>
         <Academy data={this.state.resumeData.academy}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
