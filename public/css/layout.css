@@ -231,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #f5f5f5;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -314,6 +314,20 @@ ul#nav li.current a { color: #fe6928; }
    margin: 0;
    padding-right: 24px;
   	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 0px;
+}
+
+.bar-expand-black {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #c50000;
    display: inline-block;
   	height: 42px;
    line-height: 42px;

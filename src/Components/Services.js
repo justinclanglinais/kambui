@@ -28,12 +28,21 @@ class Services extends Component {
       })
 
       var skills = this.props.data.skills.map((skills)=>{
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
-          </li>
-        )
+        if (skills.name === 'black') {
+          var className = 'bar-expand-black '+skills.name.toLowerCase();
+          return (
+            <li key={skills.name}>
+              <span style={{width:'70%', backgroundColor:"red"}}className={className}></span><em>{skills.name}</em>
+            </li>
+          )
+        } else {
+          var className = 'bar-expand '+skills.name.toLowerCase();
+          return (
+            <li key={skills.name}>
+              <span style={{width:'70%', backgroundColor:skills.color}}className={className}></span><em>{skills.name}</em>
+            </li>
+          )
+        }
       })
     }
 
@@ -42,7 +51,7 @@ class Services extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Experience</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -55,7 +64,7 @@ class Services extends Component {
       </div>
 
 
-      <div className="row work">
+      {/* <div className="row work">
 
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
@@ -64,7 +73,7 @@ class Services extends Component {
          <div className="nine columns main-col">
           {work}
         </div>
-    </div>
+      </div> */}
 
 
 
