@@ -231,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #f5f5f5;
+   background: #000000;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -248,11 +248,17 @@ ul#nav li.current a { color: #fe6928; }
 #resume h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
+   color: #fff;
+
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #fff;
 }
-
+#resume p {
+   line-height: 30px;
+   color: #ccc;
+}
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
@@ -420,7 +426,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #494949;
    padding-top: 90px;
    padding-bottom: 60px;
 }

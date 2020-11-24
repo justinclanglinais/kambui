@@ -114,34 +114,28 @@
   "academy":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
+        "title":"Private Classes",
+        "category":"Private classes with black belt Kamau",
+        "image":"kambui-1.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
+        "title":"Group Classes",
+        "category":"Group classes at Kambui Jiu Jitsu Academy or your school",
+        "image":"kambui-kids-2.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Circuit Training",
+        "category":"Circuit training customized to your goals",
+        "image":"circuit.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
+        "title":"Nutrition Coaching",
+        "category":"Kamau lost over 120lbs and can help you too",
+        "image":"nutrition.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   }
