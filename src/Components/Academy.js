@@ -44,4 +44,4 @@ class Academy extends Component {
   }
 }
 
-export default Portfolio;
+export default Academy;
