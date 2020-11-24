@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <header id="home" >
       {/* <ParticlesBg color="#ff0000" num={10} type="circle" bg={true} /> */}
-      <img src={backgroundImg} style={{'opacity': '0.3', 'z-index': '-5'}} />
+      <img src={backgroundImg} style={{'opacity': '0.3'}} />
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
