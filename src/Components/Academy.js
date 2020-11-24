@@ -26,7 +26,7 @@ class Academy extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="academy">
 
         <div className="row">
 
